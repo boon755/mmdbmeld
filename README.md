@@ -128,7 +128,7 @@ __Step 5: Query your MMDBs__
 
 ### What has changed in this Repo
 - added description and language en. Verification using mmdbctl (from ipinfo.io) showing invalid.
-- added config.yaml to combine ipv4+ipv6 for output.
+- added config-example2.yml for combine ipv4+ipv6 for output.
 
 ### Customize your MMDBs.
 
