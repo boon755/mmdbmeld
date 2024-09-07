@@ -32,8 +32,10 @@ type DefaultConfig struct {
 
 // MMDBConfig holds mmdb specific config.
 type MMDBConfig struct {
-	IPVersion  int `yaml:"ipVersion"`
-	RecordSize int `yaml:"recordSize"`
+    IPVersion   int      `yaml:"ipVersion"`
+    RecordSize  int      `yaml:"recordSize"`
+    Description map[string]string `yaml:"description"`
+    Languages   []string `yaml:"languages"`
 }
 
 // DatabaseInput holds database input config.

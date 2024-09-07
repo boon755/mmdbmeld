@@ -126,6 +126,10 @@ __Step 5: Query your MMDBs__
       country:
         iso_code: AU
 
+### What has changed in this Repo
+- added description and language en. Verification using mmdbctl (from ipinfo.io) showing invalid.
+- added config.yaml to combine ipv4+ipv6 for output.
+
 ### Customize your MMDBs.
 
 Take a look at the [config-example.yml](https://github.com/safing/mmdbmeld/blob/master/config-example.yml) to get an idea how to customize your MMDB.

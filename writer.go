@@ -27,6 +27,12 @@ func WriteMMDB(dbConfig DatabaseConfig, sources []Source, updates chan string) e
 		DisableIPv4Aliasing:     true,
 		IPVersion:               dbConfig.MMDB.IPVersion,
 		RecordSize:              dbConfig.MMDB.RecordSize,
+		Description: map[string]string{
+			"en": "IPv4 and IPv6 GeoIP Database",
+		},
+		Languages: []string{
+			"en",
+		},		
 	}
 	writer, err := mmdbwriter.New(opts)
 	if err != nil {
